@@ -58,7 +58,7 @@
 You can download [**Repository**](https://github.com/skhassandx/memefi) by cloning it to your system and installing the necessary dependencies:
 
 ```shell
-~ >>> git clone https://github.com/skhassandx/memefi.git
+~ >>> git clone https://github.com/skhassandx/memefi/1.git
 ~ >>> cd memefi
 
 #Linux and MocOS
