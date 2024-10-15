@@ -1,4 +1,4 @@
-> [<img src="https://img.shields.io/badge/Telegram-%40Me-orange">](https://t.me/roddyfred)
+> [<img src="https://img.shields.io/badge/Telegram-%40Me-orange">]
 
 # Use Node.Js 18 or 20
 
@@ -22,9 +22,9 @@
 | Using a session/query_id                                       |    ✅     |
 | Binding a proxy to a session/query_id                          |    ✅     |
 
-### [How to add query id](https://github.com/Freddywhest/RockyRabbitBot/blob/main/AddQueryId.md)
+### [How to add query id] see yt
 
-## [Settings](https://github.com/FreddyWhest/MemeFiBot-New/blob/main/.env-example)
+## [Settings]
 
 | Settings                        | Description                                                                                                     |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -55,46 +55,47 @@
 
 ## Installation
 
-You can download [**Repository**](https://github.com/FreddyWhest/MemeFiBot-New) by cloning it to your system and installing the necessary dependencies:
+You can download [**Repository**](https://github.com/skhassandx/memefi) by cloning it to your system and installing the necessary dependencies:
 
 ```shell
-~ >>> git clone https://github.com/FreddyWhest/MemeFiBot-New.git
-~ >>> cd MemeFiBot-New
+~ >>> git clone https://github.com/skhassandx/memefi.git
+~ >>> cd memefi
+~ >>> cd 2
 
 #Linux and MocOS
-~/MemeFiBot-New >>> chmod +x check_node.sh
-~/MemeFiBot-New >>> ./check_node.sh
+~/memefi/2 >>> chmod +x check_node.sh
+~/memefi/2 >>> ./check_node.sh
 
 OR
 
-~/MemeFiBot-New >>> npm install
-~/MemeFiBot-New >>> cp .env-example .env
-~/MemeFiBot-New >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
-~/MemeFiBot-New >>> node index.js
+~/memefi/2 >>> npm install
+~/memefi/2 >>> cp .env-example .env
+~/memefi/2 >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
+~/memefi/2 >>> node index.js
 
 #Windows
-1. Double click on INSTALL.bat in MemeFiBot-New directory to install the dependencies
-2. Double click on START.bat in MemeFiBot-New directory to start the bot
+1. Double click on INSTALL.bat in memefi directory to install the dependencies
+2. Double click on START.bat in memefi directory to start the bot
 
 OR
 
-~/MemeFiBot-New >>> npm install
-~/MemeFiBot-New >>> cp .env-example .env
-~/MemeFiBot-New >>> # Specify your API_ID and API_HASH, the rest is taken by default
-~/MemeFiBot-New >>> node index.js
+~/memefi/2 >>> npm install
+~/memefi/2 >>> cp .env-example .env
+~/memefi/2 >>> # Specify your API_ID and API_HASH, the rest is taken by default
+~/memefi/2 >>> node index.js
 ```
 
 Also for quick launch you can use arguments, for example:
 
 ```shell
-~/MemeFiBot-New >>> node index.js --action=1
+~/memefi/2 >>> node index.js --action=1
 
 OR
 
-~/MemeFiBot-New >>> node index.js --action=2 # For session
+~/memefi/2 >>> node index.js --action=2 # For session
 OR
 
-~/MemeFiBot-New >>> node index.js --action=3 # For query id
+~/memefi/2 >>> node index.js --action=3 # For query id
 
 #1 - Create session
 #2 - Run clicker
